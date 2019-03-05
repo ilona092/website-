@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Ilona Lange | Welcome</title>
+		<link rel="stylesheet" href="./myCss/style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<header>
+			
+			<div class="container">
+			<div class="toggle">
+				<i class="fa fa-bars menu" aria-hidden="true"></i>
+			</div>
+
+				<div id="branding">
+					<h1><span class="highlight">I</span>lona <span class="highlight">L</span>ange</h1>
+				</div>
+			
+			<nav>
+
+			
+				
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="IlonaLange_CV.pdf" download="Ilona Lange CV">Download CV</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</nav>
+
+			</div>
+		</header>
+
+		<section id="showcase">
+			<div class="container">
+				<h1>Aspiring Software Engineer</h1>
+				<p>I am determined to change my career to Software
+					Engineering, over the last few months I have been working in
+					my free time to achieve my goal.</p>
+			</div>
+		</section>
+
+		<section id="boxes">
+			<div class="container">
+				<div class="box">
+					<img src="./images/html.png">
+					<h3>HTML5 Markup</h3>
+					<p>basic</p>
+				</div>
+				<div class="box">
+					<img src="./images/css.png">
+					<h3>CSS Styling</h3>
+					<p>basic</p>
+				</div>
+				<div class="box">
+					<img src="./images/python.png">
+					<h3>Python</h3>
+					<p>basic</p>
+				</div>
+				<div class="box">
+					<img src="./images/mint.png">
+					<h3>Linux</h3>
+					<p>basic</p>
+				</div>
+				<div class="box">
+					<img src="./images/git.png">
+					<h3>Git</h3>
+					<p>basic</p>
+				</div>
+			</div>
+		</section>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+				})
+			})
+		</script>
+		
+	</body>
+
+</html>
